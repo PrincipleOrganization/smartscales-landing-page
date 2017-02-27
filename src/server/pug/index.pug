@@ -1,0 +1,182 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title SmartScales
+    meta(content='width=device-width, initial-scale=1', name='viewport')
+    link(href='main.css', rel='stylesheet', type='text/css')
+    link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', rel='stylesheet', type='text/css')
+  body
+    #product.hero_section(data-ix='dsplay-nav')
+      .hero_container.w-container
+        .navig_bar.w-nav(data-animation='default', data-collapse='medium', data-duration='400', data-ix='removing')
+          .nav_containet.w-container
+            a.navig_bar.w-nav-brand(href='#')
+            a.logo_style(href='http://smartscales.prncp.org/') SmartScales
+            nav.w-nav-menu(role='navigation')
+              a.nav_item.w-nav-link(href='#product') Продукт
+              a.nav_item.w-nav-link(href='#functional') Функціонал
+              a.nav_item.w-nav-link(href='#movements') Події
+              a.nav_item.w-nav-link(href='#plug') Підключення
+              a.nav_item.w-nav-link(href='#tech') Технології
+              a.nav_item.w-nav-link(href='#contacts') Контакти
+            .menu_bitton.w-nav-button
+              .w-icon-nav-menu
+      .carousel_container.p.w-container
+        .hero_slider.w-slider(data-animation='slide', data-duration='500', data-infinite='1', data-autoplay='1', data-delay='8000')
+          .hero_mask.w-slider-mask
+            .slide1.w-slide
+            .slide2.w-slide
+            .slide3.w-slide
+          .w-slider-arrow-left
+            .w-icon-slider-left
+          .w-slider-arrow-right
+            .w-icon-slider-right
+          .slide_controls.w-round.w-slider-nav
+        h1.hero_heading SmartScales
+        p.hero_container.p
+          | Революційний продукт, який дозволяє по сучасному підійти до комерційних зважувань. Він поєднує в собі сучасні розробки в IT та традиційні методи роботи із ваговим обладнанням.
+        .hero_container_wrapper
+          a.button.hero_container.w-button(href='#functional') Дізнатись більше
+    #functional.what_can
+      .w-container
+        h2.heading_black Що вміє SmartScales
+        .yellow_line
+      .able_scales.w-slider(data-animation='slide', data-autoplay='1', data-delay='8000', data-duration='500', data-easing='ease-out', data-infinite='1')
+        .masking.w-slider-mask
+          .able1.w-slide
+            img.able_image(src='images/device.svg')
+            p.able1.text
+              | Повністю автономний пристрій, до якого легко підключається вагове обладнання. Одночасне підключення до 4-х ваг
+          .able1.w-slide
+            img.able_image(src='images/temperature.svg')
+            p.able1.text Працює в промисловому діапазоні температур (від -40 до +85)
+          .able1.w-slide
+            img.able_image(src='images/weight.svg')
+            p.able1.text
+              | Працює із будь-яким типом автомобільних чи залізничних ваг (в тому числі осьове зважування)
+          .able1.w-slide
+            img.able_image(src='images/wireless.svg')
+            p.able1.text
+              | Підключення в мережу по wifi, ethernet (не обов'язково тягнути оптику на віддалені ваги)
+          .able1.w-slide
+            img.able_image(src='images/world.svg')
+            p.able1.text зручний інтерфейс для підключення та налаштовування через веб-браузер
+          .able1.w-slide
+            img.able_image(src='images/tablet.svg')
+            p.able1.text можливість працювати із обладнанням з мобільного телефону чи планшету
+          .able1.w-slide
+            img.able_image(src='images/video_guard.svg')
+            p.able1.text
+              | проста інтеграція із існуючими обліковими, охоронними системами та системами відео-нагляду (1С, SAP, Hikvision, Dahua)
+          .able1.w-slide
+            img.able_image(src='images/message.svg')
+            p.able1.text система оповіщень подій через sms, skype, email, twitter, telegram, slack
+          .able1.w-slide
+            img.able_image(src='images/protocol.svg')
+            p.able1.text з’єднання та авторизація по захищеним протоколам передачі даних
+          .able1.w-slide
+            img.able_image(src='images/movement.svg')
+            p.able1.text для окремих типів ваг визначає напрямок заїзду транспорту на ваги
+          .able1.w-slide
+            img.able_image(src='images/tools.svg')
+            p.able1.text
+              | можлива кастомізація та доробка додаткового функціоналу під корпоративні вимоги клієнта
+          .able1.w-slide
+            img.able_image(src='images/light.svg')
+            p.able1.text
+              | легка інтеграція із додатковим обладнанням: дисплеї, світлофори, шлагбауми, інфрачервоні датчики, RFID зчитувачі та антени
+        .left_arrow.w-slider-arrow-left
+          .w-icon-slider-left
+        .right_arrow.w-slider-arrow-right
+          .w-icon-slider-right
+        .able_image.w-round.w-slider-nav.w-slider-nav-invert
+    #movements.actions_area
+      .w-container
+        h2.heading_black.white
+          | Які події може
+          br
+          | відслідковувати SmartScales
+        .yellow_line
+        .action2.w-row
+          .action1.w-col.w-col-6
+            img.action_image(src='images/car_out.png')
+            p.action_p
+              | чи виходив водій із авто під час
+              br
+              | зважування
+          .action2.w-col.w-col-6
+            img.action_image(src='images/video_camera.png')
+            p.action_p
+              | при підключенні до системи відео-нагляду, всі події супроводжуються фото чи відео фіксацією.
+        .action2.w-row
+          .action1.w-col.w-col-6
+            img.action_image(src='images/speed.png')
+            p.action_p чи було обнулення ваг перед заїздом для зважування
+          .action2.w-col.w-col-6
+            img.action_image(src='images/truck.png')
+            p.action_p фіксація холостого проїзду
+        .last_block
+          img.action_image(src='images/checkmark.png')
+          p.action_p чи зареєстрували поточне зважування в обліковій системі
+    .what_can
+      .control_container.w-container
+    #plug.plug_area
+      .w-container
+        h2.heading_black Підключення
+        .white_line
+        img.scheme(src='images/scheme.svg')
+    #tech
+      .w-container
+        h2.heading_black Технології
+        .yellow_line
+        .w-row
+          .logo_column.w-col.w-col-3
+            img(src='images/ibm.png')
+          .logo_column.w-col.w-col-3
+            img(src='images/mongo_db.png')
+          .logo_column.w-col.w-col-3
+            img(src='images/lets_encrypt.png')
+          .logo_column.w-col.w-col-3
+            img(src='images/rethink_db.png')
+        .w-row
+          .logo_column.w-col.w-col-3
+            img(src='images/raspbery.png')
+          .logo_column.w-col.w-col-3
+            img(src='images/ubuntu.png')
+          .logo_column.w-col.w-col-3
+            img(src='images/node_red.png')
+          .logo_column.w-col.w-col-3
+            img(src='images/docker.png')
+    #contacts.footer
+      .w-container
+        h2.heading_black.white SmartScales
+        .yellow_line
+        a(href='http://www.prncp.org/')
+          svg.prncp_logo#contacts-img(width="100%" height="100%" viewBox="0 0 1134 1134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;")
+            path(d="M157.607,177.355c33.117,-122.76 166.863,-193.728 298.682,-158.407c131.947,35.355 212.319,163.904 179.366,286.886c-32.921,122.862 -166.57,193.984 -298.393,158.871l-0.386,-0.103c-47.837,-4.656 -100.659,-7.056 -143.048,4.463c-65.416,17.776 -108.229,42.012 -139.58,94.029l103.262,-385.378l0.097,-0.361Z" style="fill:#fff;")
+            path(d="M953.343,152.133c122.76,33.118 193.728,166.863 158.408,298.682c-35.356,131.948 -163.905,212.319 -286.887,179.367c-122.862,-32.921 -193.984,-166.57 -158.871,-298.393l0.103,-0.386c4.656,-47.837 7.056,-100.659 -4.463,-143.048c-17.776,-65.416 -42.012,-108.23 -94.029,-139.58l385.379,103.261l0.36,0.097Z" style="fill:#fff;")
+            path(d="M180.515,981.725c-122.76,-33.117 -193.728,-166.863 -158.407,-298.682c35.355,-131.948 163.904,-212.319 286.886,-179.366c122.862,32.92 193.985,166.57 158.871,298.392l-0.103,0.387c-4.656,47.836 -7.056,100.658 4.463,143.047c17.776,65.416 42.012,108.23 94.029,139.581l-385.378,-103.262l-0.361,-0.097Z" style="fill:#fff;")
+            path(d="M976.252,956.503c-33.118,122.76 -166.863,193.728 -298.682,158.408c-131.948,-35.356 -212.32,-163.905 -179.367,-286.887c32.921,-122.862 166.57,-193.984 298.393,-158.871l0.386,0.103c47.837,4.656 100.659,7.056 143.048,-4.462c65.416,-17.777 108.229,-42.013 139.58,-94.029l-103.261,385.378l-0.097,0.36Z" style="fill:#fff;")
+        a#contacts-title(href='http://www.prncp.org/') PRINCIP
+        .contacts_row.w-row
+          .w-col.w-col-6.contact_item
+            i.contact_icon.fa.fa-envelope-o
+            h5.contact_heading Email
+            a.contact_link office@prncp.org
+          .w-col.w-col-6.contact_item
+            i.contact_icon.fa.fa-phone
+            h5.contact_heading Телефони
+            .contact_link
+              | +38 (097) 168 88 70
+              br
+              |  +38 (097) 646 77 37
+        .sicial_network
+          i.fa.fa-facebook-square.social_icon
+          i.fa.fa-twitter-square.social_icon
+          i.fa.fa-instagram.social_icon
+    .copyright
+      div Copyright 2017
+    script(src='main.js', type='text/javascript')
+    //if lte IE 9
+      script(src='https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js')
